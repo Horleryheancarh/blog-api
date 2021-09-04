@@ -1,0 +1,23 @@
+{
+  "name": "blog-api",
+  "version": "1.0.0",
+  "description": "Blog API, web scraping using cheerio, saving to database and blog CRUD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Horleryheancarh",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "dotenv": "^10.0.0",
+    "fastify": "^3.20.2",
+    "fastify-swagger": "^4.9.1",
+    "mongoose": "^6.0.4",
+    "node-cron": "^3.0.0",
+    "nodemon": "^2.0.12"
+  }
+}
